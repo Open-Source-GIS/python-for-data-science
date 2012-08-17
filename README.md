@@ -18,7 +18,7 @@ print numpy.__file__
 quit()
 ```
 
-```pip install scipy```
+```pip install scipy```  
 To test installation of scipy...
 ```python
 import scipy
