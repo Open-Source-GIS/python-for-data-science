@@ -8,28 +8,28 @@ brew doctor
 
 brew install gfortran
 
-    ```pip install numpy```
+```pip install numpy```
 
-    To test installation of numpy...
-    ``` 
-    import numpy
-    print numpy.__version__
-    print numpy.__file__
-    quit()
-    ```
+To test installation of numpy...
+``` 
+import numpy
+print numpy.__version__
+print numpy.__file__
+quit()
+```
 
-    ```pip install scipy```
-    To test installation of scipy...
-    ```python
-    import scipy
-    print scipy.__version__
-    print scipy.__file__
-    quit()
-    ```
+```pip install scipy```
+To test installation of scipy...
+```python
+import scipy
+print scipy.__version__
+print scipy.__file__
+quit()
+```
 
-    ```pip install -U scikit-learn```
+```pip install -U scikit-learn```
 
-    ```pip install ipython```
+```pip install ipython```
 
 Definitions
 ===========================
