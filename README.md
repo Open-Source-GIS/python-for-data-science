@@ -20,7 +20,7 @@ brew install gfortran
 
     ```pip install scipy```
     To test installation of scipy...
-    ```
+    ``` python
     import scipy
     print scipy.__version__
     print scipy.__file__
