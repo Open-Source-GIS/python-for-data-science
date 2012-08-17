@@ -1,3 +1,6 @@
+Python Data Science Install script
+===========================
+Get homebrew
 
 /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
 
@@ -8,9 +11,8 @@ brew install gfortran
 > pip install numpy
 
 To test installation of numpy...
-> 
-> >	'''
-> >	import numpy
+ 	'''
+ 	import numpy
 	print numpy.__version__
 	print numpy.__file__
 	quit()
@@ -18,12 +20,12 @@ To test installation of numpy...
 
 pip install scipy
 to test installation of scipy...
-	'''
-	import scipy
-	print scipy.__version__
-	print scipy.__file__
-	quit()
-	'''
+'''
+import scipy
+print scipy.__version__
+print scipy.__file__
+quit()
+'''
 
 pip install -U scikit-learn
 
