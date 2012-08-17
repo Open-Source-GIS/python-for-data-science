@@ -4,9 +4,9 @@ Get homebrew
 
 ```/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.githubcom/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"```
 
-brew doctor
+```brew doctor```
 
-brew install gfortran
+```brew install gfortran```
 
 ```pip install numpy```
 
@@ -42,4 +42,16 @@ Definitions
     * Ensembles tend to yield better results when there is a significant diversity among the models
     * Using a variety of strong learning algorithms, however, has been shown to be more effective than using techniques that attempt to dumb-down the models in order to promote diversity
 
+* Feature extraction: 
+    * In pattern recognition and in image processing, feature extraction is a special form of dimensionality reduction.
+    * When the input data to an algorithm is too large to be processed and it is suspected to be notoriously redundant (e.g. the same measurement in both feet and meters) then the input data will be transformed into a reduced representation set of features 
+
+* Feature extraction:
+    * In machine learning and statistics, feature selection, also known as variable selection, feature reduction, attribute selection or variable subset selection, is the technique of selecting a subset of relevant features for building robust learning models.
+    * Feature selection is a particularly important step in analyzing the data from many experimental techniques in biology, such as DNA microarrays, because they often entail a large number of measured variables (features) but a very low number of samples.
+
 * Random forest: 
+    * Is an ensemble classifier that consists of many decision trees and outputs the class that is the mode of the classes output by individual trees.
+    * It is one of the most accurate learning algorithms available. For many data sets, it produces a highly accurate classifier
+    * It runs efficiently on large databases, handle thousands of input variables without variable deletion
+    * Disadvantage: Random forests have been observed to overfit for some datasets with noisy classification/regression tasks, are difficult for humans to interpret.
