@@ -19,6 +19,7 @@ quit()
 ```
 
 ```pip install scipy```  
+
 To test installation of scipy...
 ```python
 import scipy
