@@ -2,7 +2,7 @@ Python Data Science Install script
 ===========================
 Get homebrew
 
-````/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.githubcom/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"````
+```/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.githubcom/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"```
 
 brew doctor
 
@@ -20,7 +20,7 @@ brew install gfortran
 
     ```pip install scipy```
     To test installation of scipy...
-    ``` python
+    ```python
     import scipy
     print scipy.__version__
     print scipy.__file__
