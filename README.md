@@ -55,3 +55,7 @@ Definitions
     * It is one of the most accurate learning algorithms available. For many data sets, it produces a highly accurate classifier
     * It runs efficiently on large databases, handle thousands of input variables without variable deletion
     * Disadvantage: Random forests have been observed to overfit for some datasets with noisy classification/regression tasks, are difficult for humans to interpret.
+
+ * Evaluation Function: You'll always need some kind of evaluation function to determine how your models are performing.
+ 
+ * Cross-validation is a simple technique that basically grabs a chunk of the training data and holds it in reserve while the model is trained on the remainder of the data set. 
