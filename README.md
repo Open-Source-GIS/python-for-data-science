@@ -32,6 +32,12 @@ quit()
 
 ```pip install ipython```
 
+
+Octave installtion
+```otool -L libfreetype.6.dylib```
+```cp /Applications/Gnuplot.app/Contents/Resources/lib/libfreetype.6.dylib /Applications/Gnuplot.app/Contents/Resources/lib/libfreetype.6.dylib.orig```
+```cp libfreetype.6.dylib /Applications/Gnuplot.app/Contents/Resources/lib/```
+
 Definitions
 ===========================
 * Ensemble: 
